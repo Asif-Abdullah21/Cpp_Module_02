@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int x=10;
+    int x=10; // explanation is in lecture 2-1 Stack and Heap Memory
     
     return 0;
 }
