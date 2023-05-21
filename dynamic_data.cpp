@@ -14,7 +14,9 @@ int main()
     *f = 2.56;
     cout << f << endl;
     cout << *f << endl;
+    delete f;
 
+    //cout << *f << endl; // we can not access it now, because it is deleted
      
     return 0;
 }
