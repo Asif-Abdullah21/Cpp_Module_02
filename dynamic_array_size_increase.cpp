@@ -24,9 +24,13 @@ int main()
         cout << b[i] << " ";
     }
     
-    
-    
-    
+    //delete a array;
+    delete[] a;  // jodi shudhu delete a; lekha hoy tahole shudhu a[0] delete korbe // 
      
+
+    // cout << endl;
+    // for(int i=0; i<5; i++){
+    //     cout << a[i] << " "; //it is deleted
+    // }
     return 0;
 }
