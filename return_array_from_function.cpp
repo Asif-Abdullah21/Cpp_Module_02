@@ -11,7 +11,7 @@ int* fun()
 }
 int main()
 {
-    int *a = fun(); // recieving the adress of a[0] in heap memory
+    int *a = fun(); // recieving the adress of a[0] which is in heap memory
   
     for (int i = 0; i < 5; i++)
     {
